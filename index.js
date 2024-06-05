@@ -195,7 +195,7 @@ server.use(express.static("public"));
 // server.use(express.json());
 
 const calculateOrderAmount = (items) => {
-  return 1400;
+  return 1400
 };
 
 server.post("/create-payment-intent", async (req, res) => {
